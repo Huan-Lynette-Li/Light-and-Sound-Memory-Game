@@ -2,9 +2,9 @@
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
-Submitted by: **NAME**
+Submitted by: **Huan Li**
 
-Time spent: **#** hours spent in total
+Time spent: **5** hours spent in total
 
 Link to project: (insert your link here, should start with https://glitch.com...)
 
@@ -52,7 +52,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 [YOUR ANSWER HERE]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+ I'm interested in learning how back-end would work on  projects that require servers. I can see where JavaScript, CSS, and HTML all tie in together, it's really interesting and I’m also interested in a design principles such as how a website should flow in order to appease to other users.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
