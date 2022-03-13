@@ -55,8 +55,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
  I'm interested in learning how back-end would work on  projects that require servers. I can see where JavaScript, CSS, and HTML all tie in together, it's really interesting and I’m also interested in a design principles such as how a website should flow in order to appease to other users.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
-
+If I had a couple more hours, I would put more time and effort into implementing the clock and having images show up as the background. I would like for my code to be a lot more readable to others, so I would go back and write more comments about what exact variable does. 
 
 
 ## Interview Recording URL Link
