@@ -46,16 +46,18 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+StackOverflow: many-many searches for my errors and console problems.
+W3schools: tutorials on setInterval and setTimeout.
+MDN and Google as well.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+The biggest challenge was setting up the timer. I was tring to make my timer visible to the user (show on the screen),  it would stop the game if the time hits 0 and reset. Finall, I wanna make sure that users would have 10 seconds to enter their guesses. To make it visible was easy after searching on StackOverflow, then I read more questions on StackOverflow and W3chools to see examples of implementing setInterval(), setTimeout() and clearInterval(), I was able to solve the second problem by using the clearInterval() before the next round timer starts. I was told that I can set the first setTimeout() has a delay equal to the longest note, and recursively call a secondary setTimeout() that has a 1 second delay to stop my timer counting down without refresh.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
- I'm interested in learning how back-end would work on  projects that require servers. I can see where JavaScript, CSS, and HTML all tie in together, it's really interesting and I’m also interested in a design principles such as how a website should flow in order to appease to other users.
+ I'm interested in learning how back-end would work on projects that require servers.  I became more curious about how to combinefrontend with the backend that I'm interested in. I can see where JavaScript, CSS, and HTML all tie in together, it's really interesting and I’m also interested in a design principles such as how a website should flow in order to appease to other users. I would love to learn how to write tests for each function as well to ensure that they worked as expected.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-If I had a couple more hours, I would put more time and effort into implementing the clock and having images show up as the background. I would like for my code to be a lot more readable to others, so I would go back and write more comments about what exact variable does. 
+If I had a couple more hours, I would put more time and effort into implementing the clock and having images show up as the background. It'd be cool to store the game records and stats for every user. I would use cookies or a database, but that would require backend.I also would like for my code to be a lot more readable to others, so I would write more comments about the code. 
 
 
 ## Interview Recording URL Link
