@@ -6,35 +6,38 @@ Submitted by: **Huan Li**
 
 Time spent: **5** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: 
+Code: https://glitch.com/edit/#!/empty-glow-grade
+Live Site: https://empty-glow-grade.glitch.me
 
 ## Required Functionality
 
 The following **required** functionality is complete:
 
-* [ ] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
-* [ ] "Start" button toggles between "Start" and "Stop" when clicked. 
-* [ ] Game buttons each light up and play a sound when clicked. 
-* [ ] Computer plays back sequence of clues including sound and visual cue for each button
-* [ ] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
-* [ ] User wins the game after guessing a complete pattern
-* [ ] User loses the game after an incorrect guess
+* [Y] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+* [Y] "Start" button toggles between "Start" and "Stop" when clicked. 
+* [Y] Game buttons each light up and play a sound when clicked. 
+* [Y] Computer plays back sequence of clues including sound and visual cue for each button
+* [Y] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
+* [Y] User wins the game after guessing a complete pattern
+* [Y] User loses the game after an incorrect guess
 
 The following **optional** features are implemented:
 
-* [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [ ] More than 4 functional game buttons
-* [ ] Playback speeds up on each turn
-* [ ] Computer picks a different pattern each time the game is played
-* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
-* [ ] Game button appearance change goes beyond color (e.g. add an image)
-* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-* [ ] User has a limited amount of time to enter their guess on each turn
+* [Y] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [Y] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [Y] More than 4 functional game buttons
+* [N] Playback speeds up on each turn
+* [Y] Computer picks a different pattern each time the game is played
+* [N] Player only loses after 3 mistakes (instead of on the first mistake)
+* [N] Game button appearance change goes beyond color (e.g. add an image)
+* [N] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [Y] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app!
+- [ ] timer
 
 ## Video Walkthrough (GIF)
 
