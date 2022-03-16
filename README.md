@@ -2,9 +2,9 @@
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
-Submitted by: **NAME**
+Submitted by: **Huan Li**
 
-Time spent: **#** hours spent in total
+Time spent: **8** hours spent in total
 
 Link to project: (insert your link here, should start with https://glitch.com...)
 
@@ -12,25 +12,25 @@ Link to project: (insert your link here, should start with https://glitch.com...
 
 The following **required** functionality is complete:
 
-* [ ] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
-* [ ] "Start" button toggles between "Start" and "Stop" when clicked. 
-* [ ] Game buttons each light up and play a sound when clicked. 
-* [ ] Computer plays back sequence of clues including sound and visual cue for each button
-* [ ] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
-* [ ] User wins the game after guessing a complete pattern
-* [ ] User loses the game after an incorrect guess
+* [Y] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+* [Y] "Start" button toggles between "Start" and "Stop" when clicked. 
+* [Y] Game buttons each light up and play a sound when clicked. 
+* [Y] Computer plays back sequence of clues including sound and visual cue for each button
+* [Y] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
+* [Y] User wins the game after guessing a complete pattern
+* [Y] User loses the game after an incorrect guess
 
 The following **optional** features are implemented:
 
-* [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [ ] More than 4 functional game buttons
-* [ ] Playback speeds up on each turn
-* [ ] Computer picks a different pattern each time the game is played
-* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
-* [ ] Game button appearance change goes beyond color (e.g. add an image)
-* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-* [ ] User has a limited amount of time to enter their guess on each turn
+* [Y] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [Y] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [Y] More than 4 functional game buttons
+* [Y] Playback speeds up on each turn
+* [Y] Computer picks a different pattern each time the game is played
+* [Y] Player only loses after 3 mistakes (instead of on the first mistake)
+* [N] Game button appearance change goes beyond color (e.g. add an image)
+* [Y] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [Y] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
@@ -46,16 +46,18 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+StackOverflow: many-many searches for my errors and console problems. W3schools: tutorials on setInterval and setTimeout. 
+MDN and Google as well.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+The biggest challenge was setting up the timer. I was tring to make my timer visible to the user (show on the screen), it would stop the game if the time hits 0 and reset. Finall, I wanna make sure that users would have 10 seconds to enter their guesses. To make it visible was easy after searching on StackOverflow, then I read more questions on StackOverflow and W3chools to see examples of implementing setInterval(), setTimeout() and clearInterval(), I was able to solve the second problem by using the clearInterval() before the next round timer starts. I was told that I can set the first setTimeout() has a delay equal to the longest note, and recursively call a secondary setTimeout() that has a 1 second delay to stop my timer counting down without refresh.
+
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+I'm interested in learning how back-end would work on projects that require servers. I became more curious about how to combinefrontend with the backend that I'm interested in. I can see where JavaScript, CSS, and HTML all tie in together, it's really interesting and I’m also interested in a design principles such as how a website should flow in order to appease to other users. I would love to learn how to write tests for each function as well to ensure that they worked as expected.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+ If I had a couple more hours, I would put more time and effort into implementing the clock and having images show up as the background. It'd be cool to store the game records and stats for every user. I would use cookies or a database, but that would require backend.I also would like for my code to be a lot more readable to others, so I would write more comments about the code.
 
 
 
