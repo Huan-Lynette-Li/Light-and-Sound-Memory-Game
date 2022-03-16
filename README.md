@@ -6,7 +6,7 @@ Submitted by: **Huan Li**
 
 Time spent: **9** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: https://empty-glow-grade.glitch.me/
 
 ## Required Functionality
 
